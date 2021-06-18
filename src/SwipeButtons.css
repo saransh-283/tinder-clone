@@ -1,0 +1,37 @@
+.swipe-buttons {
+    position: fixed;
+    bottom: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.icon {
+    font-size: 2rem !important;
+    padding: .5rem;
+}
+
+.swipe-buttons .MuiButtonBase-root {
+    background: #fff;
+    box-shadow: 0 1rem 3rem 0 rgb(63, 63, 63) !important;
+}
+
+#replay {
+    color: #f5b748
+}
+
+#close {
+    color: #ec5e6f
+}
+
+#star {
+    color: #62b4f9
+}
+
+#favorite {
+    color: #76e2b3
+}
+
+#flash-on {
+    color: #915dd1
+}
